@@ -3,10 +3,17 @@ body {
 }
 
 .jumbotron, h1 {
-    font-size: 75px;
+    font-size: 60px;
     color: #2a2054;
     text-align: center;
 }
+
+#winOrLose {
+    font-size: 30px;
+    color: #e9ecef;
+    text-align: center;
+}
+
 
 hr {
     height:1px; 
