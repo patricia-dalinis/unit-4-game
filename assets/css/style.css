@@ -8,15 +8,15 @@ body {
     text-align: center;
 }
 
-.jumbotron, span {
-    font-size: 50px;
-    color: #2a2054;
-    text-align: center;
+hr {
+    height:1px; 
+    border:none; 
+    color:#e9ecef; 
+    background-color:#e9ecef;
 }
 
-
-.col-lg-4 {
+.col-md-4 {
     color: #e9ecef;
-    align-content: center;
-    text-align: justify;
+    text-align: center;
+    align-items: stretch;
 }

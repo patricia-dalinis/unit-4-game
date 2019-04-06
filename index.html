@@ -20,7 +20,7 @@
         <h1>Crystal Collector</h1>
         <h3 class="lead">Try and match the random number shown below by clicking on the crystals.<br>
             Determine the value of each crystal and remember, if you go over, you lose. Good luck!</h3>
-        <span id="winOrLose"></span>
+        <span id="winOrLose" style="font-size: 50px"></span>
     </div>
 
     <br>
@@ -28,7 +28,7 @@
 
     <!-- // Gem Images -->
     <div class="images">
-        <div class="col-12">
+        <div class="col-md-12">
             <div id="crystals" class="text-center">
                 <img src="assets/images/gem1.JPG" class="gemImage" id="one" alt="Gem One">
                 <img src="assets/images/gem2.JPG" class="gemImage" id="two" alt="Gem Two">
@@ -45,16 +45,16 @@
     <!-- // Random number -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-md-4">
                 <div class="numberToMatch">
-                    <h2>Number to Match:
+                    <h2>Target Number: 
                         <span id="randomNumber"></span>
                     </h2>
                 </div>
             </div>
 
     <!-- // Your Guess -->
-            <div class="col-lg-4">
+            <div class="col-md-4">
                 <div class="userGuess">
                     <h2>Your guess:
                         <span id="finalGuess"></span>
@@ -63,7 +63,7 @@
             </div>
 
     <!-- // Results .. Wins .. Losses -->
-            <div class="col-lg-4">
+            <div class="col-md-4">
                 <div class="results">
                     <h2>
                         Wins: <span id="numberOfWins"></span>
