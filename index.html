@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1>Crystal Collector</h1>
+        <h3 class="lead">Try and match the random number shown below by clicking on the crystals.<br>
+            Determine the value of each crystal and remember, if you go over, you lose. Good luck!</h3>
+    </div>
+
+    <br>
+    <hr>
+
+    <!-- // Gem Images -->
+    <div class="images">
+        <div class="col-12">
+            <div id="crystals" class="text-center">
+                <img src="assets/images/gem1.JPG" class="gemImage" id="one" alt="Gem One">
+                <img src="assets/images/gem2.JPG" class="gemImage" id="two" alt="Gem Two">
+                <img src="assets/images/gem3.JPG" class="gemImage" id="three" alt="Gem Three">
+                <img src="assets/images/gem4.JPG" class="gemImage" id="four" alt="Gem Four">
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- // Random number -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="numberToMatch">
+                    <h2>Number to Match:
+                        <span id="randomNumber"></span>
+                    </h2>
+                </div>
+            </div>
+
+            <!-- // Your Guess -->
+            <div class="col-lg-4">
+                <div class="userGuess">
+                    <h2>Your guess:
+                        <span id="finalGuess"></span>
+                    </h2>
+                </div>
+            </div>
+
+            <!-- // Results .. Wins .. Losses -->
+            <div class="col-lg-4">
+                <div class="results">
+                    <h2>
+                        Wins: <span id="numberOfWins"></span>
+                        <br>
+                        Losses: <span id="numberOfLosses"></span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

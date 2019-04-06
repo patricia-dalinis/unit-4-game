@@ -1,0 +1,16 @@
+body {
+    background-color: #2a2054;
+}
+
+.jumbotron, h1 {
+    font-size: 75px;
+    color: #2a2054;
+    text-align: center;
+}
+
+
+.col-lg-4 {
+    color: #e9ecef;
+    align-content: center;
+    text-align: justify;
+}
